@@ -1,0 +1,325 @@
+
+body{
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.asterisk{
+    position: absolute;
+    font-size: 30px;
+    right: 10%;
+    margin-top: -38px;
+    color: red;
+}
+
+/* Start bootstrap Navbar */
+
+.navbar{
+    margin-bottom: 14px;
+    height: 40px;
+}
+
+.navbar-light .navbar-brand{
+    font-size: 1em;
+    margin-right: 9px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-size: 1em;
+}
+
+.dropdown .show{
+    background-color: #212529;
+}
+.dropdown{
+    top: 0;
+}
+
+.dropdown-toggle{
+    height: 40px;
+}
+
+.dropdown-item{
+    color: white;
+    padding: 5px 10px;
+}
+
+
+/* End bootstrap Navbar */
+
+
+/* start setting box */
+
+.setting-box{
+    position: fixed;
+    left: -250px;
+    top: 0;
+    background-color: #FFF;
+    width: 250px;
+    z-index: 1000;
+    min-height: 100vh;
+    transition: .3s;
+    border: 1px solid #EEE;
+}
+
+.setting-box.open{
+    left: 0;
+}
+
+.setting-box .toggle-setting{
+    position: absolute;
+    right: -30px;
+    top: 100px;
+    background-color: #CCC;
+    text-align: center;
+    cursor: pointer;
+}
+
+.setting-box .toggle-setting .setting-i{
+    padding: 10px 0;
+    width: 30px;
+    font-size: 20px;
+}
+
+.setting-box .option-box{
+    padding: 7px;
+    text-align: center;
+    background-color: #EEE;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.setting-box .option-box img{
+    border-radius: 10%;
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.setting-box .option-box h4{
+    margin: 0;
+    color: #666;
+}
+
+.setting-box .option-box .list-menu{
+    width: 100%;
+    padding: 20px;
+}
+
+.setting-box .option-box li{
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border-bottom: 1px solid;
+    text-align: left;
+}
+
+.setting-box .option-box li a{
+    color: #4e4d4d;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+
+/* end setting box */
+
+
+/* Start Dashboard Page*/
+
+.home-stats .stat{
+    border: 1px solid #CCC;
+    padding: 16px;
+    font-size: 15px;
+    color: #FFF;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-stats .stat i{
+    position: absolute;
+    font-size: 30px;
+    top: 24px;
+    left: 40px;
+}
+
+.home-stats .stat .info{
+    right: -62px;
+    position: relative;
+}
+
+.home-stats .st-experi{
+    background-color: #445b5c;
+    box-shadow: -3px 4px 1px #CCC;
+}
+.home-stats .st-skills{
+    background-color: #684d54;
+    box-shadow: -3px 4px 1px #CCC;
+}
+.home-stats .st-quali{
+    background-color: #736448;
+    box-shadow: -3px 4px 1px #CCC;
+}
+.home-stats .st-course{
+    background-color: #4c423e;
+    box-shadow: -3px 4px 1px #CCC;
+}
+.home-stats .stat span{
+    display: block;
+    font-size: 20px;
+}
+
+.home-stats .stat a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+
+.latest{
+    margin-top: 30px;
+}
+
+.latest .row{
+    padding-bottom: 20px;
+}
+
+.latest .toggle-info{
+    color: #999;
+}
+
+.latest .toggle-info:hover{
+    color: #444;
+    cursor: pointer;
+}
+
+.latest .numbers{
+    border-radius: 50%;
+    padding: 0px 8px;
+}
+
+.latest-users{
+    margin-bottom: 0;
+}
+
+.latest-users li{
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.latest-users li:nth-child(odd){
+    background-color: #EEE;
+}
+
+.latest .btn-success,
+.latest .btn-info{
+    padding: 0px 8px;
+}
+
+.latest-users .btn-info{
+    margin-right: 10px;
+}
+
+.latest-users a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.latest .comment-box{
+    margin: 0;
+}
+
+.latest .comment-box .member-n,
+.latest .comment-box .comment-c{
+    float: left;
+}
+
+.latest .comment-box .member-n{
+    margin-right: 20px;
+    text-align: center;
+    width: 80px;
+    position: relative;
+    top: 9px;
+}
+
+.latest .comment-box .comment-c{
+    width: calc(100% - 100px);
+    padding: 15px;
+    background-color: #ececec;
+    position: relative;
+}
+
+.latest .comment-box .comment-c:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -26px;
+    top: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #ececec transparent transparent;
+    border-width: 13px;
+}
+
+/* End Dashboard Page*/
+
+/* Start Experience Page */
+
+.exper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 80vw;
+}
+
+.exper .btn-sm{
+    width: 10%;
+}
+
+.main-table{
+    box-shadow: 0px 10px 10px #CCC;
+}
+
+.main-table td{
+    background-color: #FFF;
+    vertical-align: middle;
+}
+
+.main-table tr:first-child td{
+    background-color: #333;
+    color: #FFF;
+}
+
+.main-table .btn{
+    padding: 1px 10px;
+    font-size: 1em;
+    margin: 2px;
+}
+
+.activate{
+    color: #FFF;
+    margin-left: 5px;
+}
+
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 600px;
+    }
+}
+
+/* End Experience Page */
+
+

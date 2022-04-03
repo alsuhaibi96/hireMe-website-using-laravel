@@ -1,0 +1,336 @@
+:root {
+    --primaryColor: #23264b;
+    --secondaryColor: #e7b54c;
+    --textColor: #4b4b9e;
+}
+
+.main-header,
+.main-content,
+.images-container {
+    background-color: var(--primaryColor)
+}
+
+.main-active {
+    color: var(--secondaryColor) !important;
+}
+
+.navbar-bg {
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+.navbar-a-color {
+    color: #83869b;
+}
+
+.me {
+    color: var(--secondaryColor);
+}
+
+.me :hover {
+    color: var(--secondaryColor);
+}
+
+.spanColor {
+    color: white;
+}
+
+.people-img-container {
+    background-repeat: no-repeat;
+    background-size: 560px;
+}
+
+.btn-bg-color {
+    background-color: #252b52;
+}
+
+.signup-btn {
+    width: 130px;
+    height: 50px;
+    border-radius: 40%;
+    padding: 15px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.signin-btn,
+.readmore-btn {
+    width: 100px;
+    color: white;
+}
+
+
+/* CSS */
+
+.signup-btn,
+.searchJobbtn {
+    align-items: center;
+    border: 1px solid var(--secondaryColor);
+    color: var(--secondaryColor);
+    border-radius: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: 600;
+    justify-content: center;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.searchJobbtn {
+    width: 160px;
+    padding: 15px 20px;
+}
+
+.readmore-btn {
+    color: var(--secondaryColor);
+    background-color: var(--primaryColor);
+}
+
+.future-bg {
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    padding: 10px 20px;
+    padding-left: 20px;
+    border-radius: 100px;
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+}
+
+.paragraph {
+    color: #ced0d8;
+}
+
+.our-partners-color {
+    color: #9297ac;
+}
+
+.partners-bg {
+    background-color: #214674;
+}
+
+.features-text-color {
+    color: var(--textColor);
+}
+
+.search-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px;
+    border: 3px solid #dce7f5;
+    height: 70px;
+    width: 90%;
+}
+
+.fa-fa-bg {
+    background-color: #dfe9f6;
+}
+
+.search-bg {
+    background-color: #214674;
+}
+
+.search-btn-bg {
+    border-radius: 100px;
+    padding-left: 20px;
+    width: 120px;
+    padding: 10px 0px;
+    height: 45px;
+    top: 10px;
+    left: 4px;
+}
+
+.search-container input {
+    width: 120px;
+    border: none;
+    height: 40px;
+}
+
+.top-px {
+    top: 10px;
+}
+
+.top-right-px {
+    top: 10px;
+    right: 90px;
+}
+
+#place-inp {
+    position: absolute;
+    right: 320px;
+    top: 10px
+}
+
+#place-icon {
+    font-size: 30px;
+    right: 260px;
+    top: 10px;
+}
+
+.profile-body-bg {
+    background-color: #e6e6e6;
+}
+
+.profile-bg {
+    background-color: #3a3a3c;
+}
+
+.vl {
+    border-right: 2px solid black;
+    height: 500px;
+}
+
+.vl-sm {
+    border-right: 1px solid white;
+    height: 25px;
+}
+
+
+/*
+
+ Form control style
+##login ##Sign in ##Contact us
+*/
+
+.text-theme {
+    color: var(--primaryColor) !important;
+}
+
+.btn-theme {
+    background-color: var(--primaryColor);
+    border-color: #5369f8;
+    color: #fff;
+}
+
+.account-block {
+    padding: 0;
+    height: 100%;
+    position: relative;
+}
+
+.account-block .overlay {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/*
+
+End Form control style
+##login ##Sign in ##Contact us
+*/
+
+.signup-btn a:hover {
+    color: var(--secondaryColor)!important;
+}
+
+.nav-item a:hover,
+.nav-item a:focus,
+.navbar-brand:hover {
+    color: var(--secondaryColor) !important;
+}
+
+
+/*
+Jobs style
+*/
+
+.search-btn-job {
+    padding-left: 10px;
+    width: 40px;
+    padding: 10px 0px;
+    height: 38px;
+    top: 0px;
+    left: 0px;
+}
+
+.text-color {
+    color: var(--textColor);
+}
+
+.li-jobs a:hover,
+.job-title-container a:hover {
+    color: var(--textColor)!important;
+    text-decoration: underline solid var(--primaryColor) !important;
+}
+
+.li-jobs a:focus {
+    color: var(--textColor)!important;
+}
+
+.marker-color {
+    color: var(--primaryColor);
+}
+
+.btn-theme :hover {
+    color: white !important;
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .people-img-container {
+        background-size: 450px;
+    }
+    .signup-btn,
+    .signin-btn {
+        display: none;
+    }
+    .ipad-portrait {
+        color: red;
+    }
+    /* your css rules for ipad portrait */
+}
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+    .ipad-landscape {
+        color: blue;
+    }
+    /* your css rules for ipad landscape */
+}
+
+@media screen and (max-width:548px) {
+    .search-btn-bg {
+        border-radius: 50px;
+        padding-left: 5px;
+        font-size: 10px;
+        width: 90px;
+        padding: 10px 0px;
+        top: 10px;
+        left: 4px;
+    }
+    .search-container i {
+        font-size: 10px;
+    }
+    .search-container input {
+        width: 80px;
+        border: none;
+        height: 40px;
+        right: 14px;
+    }
+    .top-px {
+        display: none;
+    }
+    #place-inp {
+        right: 100px;
+    }
+    #search-icon {
+        font-size: 10px;
+    }
+    .search-cap {
+        font-size: 18px;
+    }
+    .mail-text {
+        font-size: 8px;
+    }
+    .vl {
+        height: 610px;
+    }
+}
