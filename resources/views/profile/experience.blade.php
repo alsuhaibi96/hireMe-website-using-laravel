@@ -1,60 +1,9 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
+@extends('layouts.profile_layouts.profile_master')
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experience</title>
-    <link rel="stylesheet" href="../layout/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../layout/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../layout/css/jquery-ui.css">
-    <link rel="stylesheet" href="../layout/css/style.css">
-</head>
+    <!--nav-->
 
-<body class="bg-dark">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a id="myprofilename" class="nav-link dropdown-toggle bg-white" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false" >
-                         عبدالرحمن الصهيبي
-                        </a>
-                        <ul class="dropdown-menu bg-white" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item bg-white text-black" href="../index.html">لوحة التحكم</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- start setting box -->
-
-    <div class="setting-box " >
-        <div class="toggle-setting">
-            <i class="fa fa-gear setting-i"></i>
-      
-        </div>
-        <div class="setting-container ">
-            <div class="option-box bg-dark text-white">
-                <img src="../assets/IMG_20210930_030036_034.JPG" alt="" class="img-thumbnail">
-                <h4 class="text-white">عبدالرحمن الصهيبي</h4>
-                <hr>
-                <ul class="list-menu " >
-                    <li class="text-center"><a href="../index.html" class="text-white" >لوحة التحكم</a></li>
-                    <li class="text-center"><a href="experience.html" class="text-white">الخبرات</a></li>
-                    <li class="text-center"><a href="skills.html" class="text-white">المهارات</a></li>
-                    <li class="text-center"><a href="qualification.html" class="text-white">المؤهلات</a></li>
-                    <li class="text-center"><a href="courses.html" class="text-white">الدورات</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    
-    <!-- end setting box -->
-
+@section('content')
+ 
     <!-- Start Experience Page  -->
     <h1 class="text-center text-white">اعدادت الخبرات</h1>
     <div class="container pt-5">
@@ -218,10 +167,5 @@
             </div>
         </div>
     </div>
-    <script src="../layout/js/jquery-3.5.1.min.js"></script>
-    <script src="../layout/js/jquery-ui.min.js"></script>
-    <script src="../layout/js/bootstrap.min.js"></script>
-    <script src="../layout/js/app.js"></script>
-</body>
-
-</html>
+ 
+    @stop
